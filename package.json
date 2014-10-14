@@ -1,0 +1,29 @@
+{
+  "name": "mumblejs",
+  "version": "0.1.0",
+  "description": "Mumble Protocol Implementation in Javascript",
+  "main": "entry.js",
+  "bin": {
+    "mumblejs": "mumble_client.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Seris/mumblejs"
+  },
+  "keywords": [
+    "mumble",
+    "voip"
+  ],
+  "author": "Seris",
+  "license": "Apache License v2.0",
+  "bugs": {
+    "url": "https://github.com/Seris/mumblejs/issues"
+  },
+  "homepage": "https://github.com/Seris/mumblejs",
+  "dependencies": {
+    "protobufjs": "^3.6.0"
+  }
+}
